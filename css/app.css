@@ -1,0 +1,19 @@
+.tooltip-text .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip-text i{
+  color: red;
+    position: absolute;
+}
+
+.tooltip-text:hover .tooltiptext {
+    visibility: visible;
+}
